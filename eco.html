@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<!-- __V3D_PUZZLES__ - enable Puzzles button in the App Manager -->
+<!-- __V3D_TEMPLATE__ - template-based file; delete this line to prevent this file from being updated -->
+<html lang="en">
+
+<head>
+    <title>Verge3D Web Interactive</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+
+    <!-- Search Engines -->
+    <meta name="description"
+          content="Interactive 3D Web application made with Verge3D. Immerse yourself in amazing graphics experience offered by state-of-the WebGL and HTML5 technologies.">
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Verge3D Web Interactive">
+    <meta name="twitter:description"
+          content="Interactive 3D Web application made with Verge3D. Immerse yourself in amazing graphics experience offered by state-of-the WebGL and HTML5 technologies.">
+    <meta name="twitter:image:src" content="https://cdn.soft8soft.com/images/player_socials.jpg">
+    <!-- Open Graph -->
+    <meta property="og:title" content="Verge3D Web Interactive">
+    <meta property="og:description"
+          content="Interactive 3D Web application made with Verge3D. Immerse yourself in amazing graphics experience offered by state-of-the WebGL and HTML5 technologies.">
+    <meta property="og:image" content="https://cdn.soft8soft.com/images/player_socials.jpg">
+    <meta property="og:type" content="website">
+
+    <meta name="generator" content="Verge3D 3.7.0">
+
+    <!-- favicons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="media/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="media/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="media/favicon-16x16.png">
+    <link rel="manifest" href="media/manifest.json">
+    <link rel="mask-icon" href="media/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="theme-color" content="#ffffff">
+
+
+    <script src="v3d.js"></script>
+    <script src="eco.js"></script>
+
+    <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+            integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+            crossorigin="anonymous"
+    />
+    <link rel="stylesheet" type="text/css" href="eco.css">
+
+    <link rel="stylesheet" href="css/style.css"/>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+            integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+<div id="v3d-container">
+    <div id="fullscreen_button" class="fullscreen-button fullscreen-open" title="Toggle fullscreen mode"></div>
+    <div class="header">
+        <button class="btn menu-button " data-is_hight="true"></button>
+
+        <div class="toolbar">
+            <ul>
+                <li>
+                    <div class="toolbar-item d-flex flex-row">
+                        <button class="btn accessories-btn toolbar-item-btn1" data-is_show="true"></button>
+                        <div class="btn-list ml-2  d-flex flex-row">
+                            <div class="btn-container fan-item">
+                                <button class="btn btn-zoom" id="zoom_fan"></button>
+                                <button class="btn fan"></button>
+                            </div>
+                            <div class="btn-container fan-item">
+                                <button class="btn btn-zoom"></button>
+                                <button class="btn heat-pumb"></button>
+                            </div>
+
+
+                            <!--                  <button class="btn heat-pumb"></button>-->
+                            <!--                  <button class="btn heater"></button>-->
+                            <!--                  <button class="btn hvac"></button>-->
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="toolbar-item d-flex flex-row">
+                        <button class="btn accessories-btn toolbar-item-btn2" data-is_show="true"></button>
+                        <div class="btn-list ml-2">
+                            <button class="btn engine"></button>
+                            <button class="btn container"></button>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="toolbar-item d-flex flex-row">
+                        <button class="btn accessories-btn toolbar-item-btn3" data-is_show="true"></button>
+                        <div class="btn-list ml-2">
+                            <button class="btn box"></button>
+                            <button class="btn tray"></button>
+                            <button class="btn bag"></button>
+                            <button class="btn "></button>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<script src="./js/main.js"></script>
+</body>
+
+</html>

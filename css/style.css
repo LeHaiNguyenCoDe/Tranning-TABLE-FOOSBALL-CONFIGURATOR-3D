@@ -1,0 +1,117 @@
+.v3d-container {
+    width: 100vw;
+    height: 100vh;
+}
+
+.v3d-container ul {
+    padding: 0;
+    margin: 6px;
+}
+
+.v3d-container li {
+    list-style: none;
+}
+
+.v3d-container .header {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+
+}
+
+.v3d-container > .header > .menu-button {
+    padding: 0;
+    margin: 6px;
+    background-size: cover;
+    background-image: url(../images/menu_black.svg);
+
+}
+
+
+.v3d-container > .header > .toolbar > .accessories-btn {
+    position: relative;
+}
+
+.v3d-container .toolbar li {
+
+    margin-top: 0.5em;
+}
+
+.v3d-container .btn {
+    width: 50px;
+    height: 50px;
+}
+
+.toolbar-item-btn1 {
+    background-image: url(../images/tools.svg);
+}
+
+.toolbar-item-btn2 {
+    background-image: url(../images/maroom.svg);
+}
+
+.toolbar-item-btn3 {
+    background-image: url(../images/stock.svg);
+}
+
+.fan {
+    background-image: url(../images/fan.svg);
+    background-repeat: no-repeat;
+}
+
+.heat-pumb {
+    background-image: url(../images/heatpump.svg);
+}
+
+.heater {
+    background-image: url(../images/heater.svg);
+}
+
+.hvac {
+    background-image: url(../images/power.svg);
+}
+
+.engine {
+    background-image: url(../images/engine-room.svg);
+}
+
+.container {
+    background-image: url(../images/zoom.svg);
+}
+
+.tray {
+    background-image: url(../images/tray.svg);
+}
+
+.box {
+    background-image: url(../images/box.svg);
+}
+
+.bag {
+    background-image: url(../images/bag.svg);
+}
+
+.btn-container {
+    position: relative;
+}
+
+.btn {
+    background-color: transparent;
+}
+.btn-zoom{
+    position: absolute;
+    background-image: url(../images/zoom.svg);
+    background-repeat: no-repeat;
+    top: -100%;
+}
+
+.btn:focus {
+    outline:none;
+    box-shadow: none;
+}
+.fan-item{
+    position: relative;
+}
+.toolbar-item-zoom {
+ position: absolute;
+}
