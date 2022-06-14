@@ -1,0 +1,71 @@
+.container_container{
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	width: 70px;
+	height: auto;
+	background: Silver;
+}
+.list_btn > button{
+	height: 70px;
+	width: 70px;
+	margin: 0.4em;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-color: transparent;
+	border: none;
+}
+
+
+.list_btn > button:focus {
+	border: none;
+	outline: none;
+
+}
+
+.list_btn > button:hover {
+	cursor: pointer;
+}
+
+.list_btn > .color-btn.active > img{
+	transform: translateX(20px);
+}
+
+.list_btn > .color-btn > img{
+	width: 100%;
+	text-decoration: none;
+	transition: all 0.3s ease-out;
+}
+.list_btn > .color-btn:not(.active) > img:hover{
+	transform: translateX(5px);
+}
+
+@media (max-width: 500px) {
+	.list_btn > button{
+		height: 50px;
+		width: 50px;
+	}
+	.container_container{
+		top: auto;
+		width: auto;
+		height: 60px;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		background: Silver;
+		float: left;
+	}
+
+	.list_btn > .color-btn.active > img{
+		transform: translateY(-10px);
+	}
+	.list_btn > .color-btn:not(.active) > img:hover{
+		transform: translateY(-5px);
+	}
+
+	.list_btn > .color-btn:not(.active) > img:hover{
+		transform: translateY(-5px);
+	}
+
+}
