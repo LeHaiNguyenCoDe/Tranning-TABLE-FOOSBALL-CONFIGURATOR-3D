@@ -1,0 +1,65 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <tab name="init" type="InitTab" active="false" scrollx="875" scrolly="430.4999999999999" scale="0.9">
+    <block xmlns="https://developers.google.com/blockly/xml" type="initSettings" id="r8QI9^eLUW|~@N^@pvnc" x="-790" y="-350">
+      <field name="LOAD_COMP_ASSETS">TRUE</field>
+      <field name="FULLSCREEN">TRUE</field>
+      <field name="BKG_TRANSPARENCY">FALSE</field>
+      <field name="PRESERVE_DRAW_BUF">FALSE</field>
+      <field name="FADE_ANNOTATIONS">TRUE</field>
+    </block>
+  </tab>
+  <tab name="main" type="MainTab" active="true" scrollx="1497.2789115905762" scrolly="441.8344669342041" scale="0.9070294784580498">
+    <block xmlns="https://developers.google.com/blockly/xml" type="ssr" id=")2PUcCWm!,@LjP)v*/LA" x="-1410" y="-170">
+      <field name="TYPE">REFLECT</field>
+      <value name="MATERIAL">
+        <shadow type="materialList" id="@L!~Y%?8r]t|0Xu/KnXt">
+          <field name="FIELDNAME">FOTTBALLBOX</field>
+        </shadow>
+      </value>
+      <value name="STEPS">
+        <shadow type="number_slider" id="G_0qZT]zAQDb2^@-g`s{">
+          <field name="NUM" min="0" max="1000" step="1">100</field>
+        </shadow>
+      </value>
+      <value name="STRIDE">
+        <shadow type="number_slider" id="Dgaj8;hN+KH?/.mFf=26">
+          <field name="NUM" min="0" max="10" step="0.1">5</field>
+        </shadow>
+      </value>
+      <value name="BINARY_SEARCH_STEPS">
+        <shadow type="number_slider" id="H!Fn_*5$3oAZbEyQ6Y/x">
+          <field name="NUM" min="0" max="10" step="0.1">4</field>
+        </shadow>
+      </value>
+      <value name="THICKNESS">
+        <shadow type="number_slider" id="{=eLW}:N{gWWuQG)~foj">
+          <field name="NUM" min="0" max="0.1" step="0.01">0.06</field>
+        </shadow>
+      </value>
+      <value name="MAX_DISTANCE">
+        <shadow type="number_slider" id="KQgrRz(i+,w@=ztV+}O7">
+          <field name="NUM" min="0" max="1000" step="1">1000</field>
+        </shadow>
+      </value>
+      <value name="RESOLUTION">
+        <shadow type="number_slider" id="LzAH1SxYYH4~uu*CVY^}">
+          <field name="NUM" min="0" max="10" step="0.1">1</field>
+        </shadow>
+      </value>
+      <value name="JITTER">
+        <shadow type="number_slider" id="3e$eu@7sZRL8s}C=/%b?">
+          <field name="NUM" min="0" max="10" step="0.1">1</field>
+        </shadow>
+      </value>
+      <value name="RENDER_AFTER">
+        <shadow type="objectList" id="Om@%qm}n_BRH5J{@`9wf">
+          <field name="FIELDNAME">&lt;none&gt;</field>
+        </shadow>
+      </value>
+      <next>
+        <block type="removePostprocessing" id="2(a$KEr{w!)WL(@6oKb`"/>
+      </next>
+    </block>
+  </tab>
+  <editorsettings viewport-x="992" viewport-y="28" viewport-w="910" viewport-h="687.5" viewport-hidden="false" toolbox-library-mode="false" toolbox-minimized-mode="false"></editorsettings>
+</xml>

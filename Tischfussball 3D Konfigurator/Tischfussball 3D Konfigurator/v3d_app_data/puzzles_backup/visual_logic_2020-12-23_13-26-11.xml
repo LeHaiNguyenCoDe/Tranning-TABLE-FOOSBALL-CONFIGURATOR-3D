@@ -1,0 +1,31 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <tab name="init" type="InitTab" active="false" scrollx="875" scrolly="430.5" scale="0.9">
+    <block xmlns="https://developers.google.com/blockly/xml" type="initSettings" id="r8QI9^eLUW|~@N^@pvnc" x="-790" y="-350">
+      <field name="LOAD_COMP_ASSETS">TRUE</field>
+      <field name="FULLSCREEN">TRUE</field>
+      <field name="BKG_TRANSPARENCY">FALSE</field>
+      <field name="PRESERVE_DRAW_BUF">FALSE</field>
+      <field name="FADE_ANNOTATIONS">TRUE</field>
+    </block>
+  </tab>
+  <tab name="main" type="MainTab" active="true" scrollx="875" scrolly="430.5" scale="0.9">
+    <block xmlns="https://developers.google.com/blockly/xml" type="ssaoAdv" id="^A|bq,R/_dawc(uu.s+n" x="-850" y="-110">
+      <value name="RADIUS">
+        <shadow type="number_slider" id="RzOhA)r0/[iJ,tkr|CQB">
+          <field name="NUM" min="0" max="10" step="0.1">0.01</field>
+        </shadow>
+      </value>
+      <value name="MIN_DIST">
+        <shadow type="number_slider" id="uHoE*yUi^#wj/AMcudma">
+          <field name="NUM" min="0.001" max="0.01" step="0.001">0.001</field>
+        </shadow>
+      </value>
+      <value name="MAX_DIST">
+        <shadow type="number_slider" id=",Ar)Hs,6F[H1DA^e586C">
+          <field name="NUM" min="0" max="10" step="0.1">0</field>
+        </shadow>
+      </value>
+    </block>
+  </tab>
+  <editorsettings viewport-x="1134" viewport-y="28" viewport-w="768" viewport-h="468.5" viewport-hidden="false" toolbox-library-mode="false" toolbox-minimized-mode="false"></editorsettings>
+</xml>
